@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+}
+nav{
+    width: 100%;
+    background-color: #f5e050;
+    color: #0A75BC;
+    text-align: center;
+    margin-bottom: 25px;
+}
+h1{
+    padding: 15px;
+}
+
+section{
+    text-align: center;
+    width: 100%;
+}
+
+textarea{
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+#btn-translate{
+    background-color: #f5e050;
+    color: #0A75BC;
+    border-radius: 5%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.output-container{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    overflow: scroll;
+    border: 1px solid #111;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    background-color: #f5e050;
+    color: #0A75BC;
+    text-align: center;
+}
